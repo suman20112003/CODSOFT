@@ -1,0 +1,49 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    background: url(https://png.pngtree.com/background/20210715/original/pngtree-hand-drawn-cartoon-shopping-pattern-background-picture-image_1301473.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator {
+    background-color: rgb(155, 140, 236);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+ input {
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.5), 5px 5px 15px rgba(0, 0, 0, 0.5);
+    background: transparent;
+    cursor: pointer;
+    margin: 10px;
+
+}
+input:hover{
+    background-color:rgba(173, 216, 230, 1)
+}
+
+.dispaly {
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+
+.dispaly input {
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+
+}
+
+.equal {
+    width: 145px;
+}
